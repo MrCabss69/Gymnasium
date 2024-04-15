@@ -3,7 +3,7 @@
 
 import pygame
 import math
-from constants import COLORS
+from envs.parabolic_shot.constants import COLORS
 
 class Renderer:
     def __init__(self, window_size, scale_factor):

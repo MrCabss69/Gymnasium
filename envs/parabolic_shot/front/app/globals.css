@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-inter: 'Inter', sans-serif;
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 210, 215, 217;
+  --background-end-rgb: 245, 250, 255;
+}
+
+body {
+  font-family: var(--font-inter);
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+    to bottom, 
+    rgba(var(--background-start-rgb), 0.8),
+    rgba(var(--background-end-rgb), 0.8)
+  );
+}
